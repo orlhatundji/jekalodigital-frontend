@@ -1,0 +1,32 @@
+.container {
+    margin-top: 50px;
+}
+
+.tr {
+    width: 100%;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+    border-bottom: 1px solid rgba(17, 70, 143, 0.04);
+}
+.td {
+    margin: auto 10px;
+}
+.td_right {
+    text-align: right;
+}
+
+.table_title {
+    border-radius: 6px;
+    padding: 16px 12px;
+    font-size: 14px;
+    color: #000000;
+    background-color: rgba(17, 70, 143, 0.04);
+}
+
+.img {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    
+}

@@ -1,0 +1,51 @@
+form {
+    width: 80%;
+    display: grid;
+    grid-template-columns: 70% 30%;
+    grid-column-gap: 5%;
+  }
+  
+  .inputs {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-column-gap: 20px;
+    grid-row-gap: 20%;
+  }
+  
+  .form_group {
+    width: 100%;  
+  }
+  
+  input {
+    border-radius: 6px;
+    width: 100%;
+    border: 0.5px solid #11468F;
+    padding: 16px;
+  }
+  
+  .label {
+    color: #11468F;
+    font-size: 16px;
+    line-height: 18.75px;
+    font-weight: 700;
+  }
+  
+  .error {
+    color: rgb(241, 111, 111);
+  }
+  
+  .submit_btn {
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-top: 20px;
+    background-color: #11468F;
+    height: fit-content;
+  }
+
+  .img {
+      margin-top: 20px;
+      width: 40px;
+  }
+  
